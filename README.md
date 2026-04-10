@@ -1,18 +1,18 @@
-# 🚀 Teste de Performance - BlazeDemo
+#  Teste de Performance - BlazeDemo
 
-## 📌 Objetivo
+## Objetivo
 
 Validar se o sistema suporta **250 requisições por segundo** com **tempo de resposta P90 inferior a 2 segundos**.
 
 ---
 
-## 🛠️ Ferramenta utilizada
+##  Ferramenta utilizada
 
 * Apache JMeter
 
 ---
 
-## 📊 Cenário testado
+##  Cenário testado
 
 Fluxo completo de compra:
 
@@ -22,7 +22,7 @@ Fluxo completo de compra:
 
 ---
 
-## 📈 Resultados obtidos
+##  Resultados obtidos
 
 * Total de requisições: 1500
 * Tempo médio: 885 ms
@@ -38,7 +38,7 @@ Fluxo completo de compra:
 
 ---
 
-## ❌ Validação do critério de aceitação
+##  Validação do critério de aceitação
 
 Critério:
 
@@ -53,7 +53,7 @@ Critério:
 
 ---
 
-## 🧠 Conclusão
+##  Conclusão
 
 O sistema demonstrou boa estabilidade e tempos de resposta aceitáveis na maior parte do fluxo, porém não foi possível atingir a vazão de 250 requisições por segundo.
 
@@ -61,7 +61,7 @@ Além disso, foi identificado que a requisição inicial (home) apresenta maior 
 
 ---
 
-## 🔎 Possíveis causas
+##  Possíveis causas
 
 * Limitação do ambiente local de teste
 * Capacidade limitada do servidor BlazeDemo
@@ -69,8 +69,15 @@ Além disso, foi identificado que a requisição inicial (home) apresenta maior 
 
 ---
 
-## 🧠 Considerações finais
+##  Considerações finais
 
 O teste foi executado simulando o fluxo completo do usuário, garantindo maior fidelidade ao comportamento real.
 
 Para análises mais aprofundadas, seria recomendada a utilização de um ambiente controlado e aplicação de técnicas como distribuição de carga e correlação de dados dinâmicos.
+
+
+
+## Autor 
+
+
+Deivison Andrade
