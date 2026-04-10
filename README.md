@@ -1,5 +1,4 @@
 #  Teste de Performance - BlazeDemo
-
 ## Objetivo
 
 Validar se o sistema suporta **250 requisições por segundo** com **tempo de resposta P90 inferior a 2 segundos**.
@@ -58,7 +57,7 @@ Critério:
 O sistema demonstrou boa estabilidade e tempos de resposta aceitáveis na maior parte do fluxo, porém não foi possível atingir a vazão de 250 requisições por segundo.
 
 Além disso, foi identificado que a requisição inicial (home) apresenta maior latência, podendo ser um possível gargalo na aplicação.
-
+ Os resultados  citados foram analisados apos os testes realizados localmente. 
 ---
 
 ##  Possíveis causas
@@ -138,17 +137,9 @@ Clique no botão **Start (▶️)** dentro do JMeter
 
 ---
 
-###  5. Visualizar os resultados
 
-Após a execução:
 
-* Os resultados serão salvos em:
-
-```bash
-reports/results.jtl
-```
-
-* Você também pode visualizar diretamente nos listeners do JMeter:
+* Você  pode visualizar diretamente nos listeners do JMeter:
 
   * Relatório de Sumário
   * Relatório Agregado
