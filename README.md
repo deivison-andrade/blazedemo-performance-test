@@ -77,6 +77,87 @@ Para análises mais aprofundadas, seria recomendada a utilização de um ambient
 
 
 
+##  Como executar o teste de performance localmente (JMeter)
+
+Siga o passo a passo abaixo para rodar o projeto na sua máquina:
+
+---
+
+###  Pré-requisitos
+
+Antes de começar, você precisa ter instalado:
+
+* Java (JDK 8 ou superior)
+* Apache JMeter
+
+---
+
+### 1. Baixar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+Acesse a pasta:
+
+```bash
+cd seu-repositorio
+```
+
+---
+
+###  2. Abrir o projeto no JMeter
+
+1. Abra o Apache JMeter
+2. Clique em **File → Open**
+3. Navegue até a pasta do projeto
+4. Selecione o arquivo:
+
+```bash
+test-plan/blazedemo.jmx
+```
+
+---
+
+###  3. Configurar o relatório (opcional, mas recomendado)
+
+1. Clique no listener **"Relatório de Sumário"** ou **"Relatório Agregado"**
+2. No campo **"Nome do arquivo"**, informe:
+
+```bash
+reports/results.jtl
+```
+
+---
+
+### ▶ 4. Executar o teste
+
+Clique no botão **Start (▶️)** dentro do JMeter
+
+---
+
+###  5. Visualizar os resultados
+
+Após a execução:
+
+* Os resultados serão salvos em:
+
+```bash
+reports/results.jtl
+```
+
+* Você também pode visualizar diretamente nos listeners do JMeter:
+
+  * Relatório de Sumário
+  * Relatório Agregado
+  * Ver Árvore de Resultados
+
+---
+
+
+
 ## Autor 
 
 
